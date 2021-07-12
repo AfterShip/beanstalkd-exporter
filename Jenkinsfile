@@ -5,6 +5,7 @@
 entry {
 	isDryRun = false
 	flow = "golang"
+	ci_only = true
 	configInfo = [
 	      deploymentGroup          : "postmen",
 	      appName                  : "beanstalkd-exporter",
